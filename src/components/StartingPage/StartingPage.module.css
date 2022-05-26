@@ -1,0 +1,17 @@
+.starting {
+    margin: 3rem auto;
+    text-align: center;
+}
+  
+.starting h1 {
+    font-size: 5rem;
+}
+
+.starting button {
+    font: inherit;
+    border: 30px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 18px;
+    cursor: pointer;
+}
