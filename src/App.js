@@ -7,6 +7,7 @@ import UserProfile from './components/Profile/UserProfile';
 import AuthContext from './store/auth-context';
 //import PostList from './SampleBlogs/blogs/PostList';
 import Customer from './Customer/Customer';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
     const authCtx = useContext(AuthContext);
@@ -41,6 +42,7 @@ const App = () => {
                     <Redirect to='/' />
                 </Route>
             </Switch>
+            <Footer />
         </Layout>
     );
 }
